@@ -1,0 +1,17 @@
+.tag{
+    width: 200px;
+}
+.answers{
+    min-height: 50vh;
+}
+.selected{
+    background-color: #e7e4e4;
+}
+#result{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+
+

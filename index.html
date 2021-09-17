@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Test</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="question col-6 dropzone">
+                <h2 class="text-center">Balises html</h2>
+                <div class="tag border bg-primary text-white text-center rounded-pill mt-2 mx-auto draggable" draggable="true" data-display="block">div</div>
+                <div class="tag border bg-primary text-white text-center rounded-pill mt-2 mx-auto draggable" draggable="true" data-display="inline">span</div>
+                <div class="tag border bg-primary text-white text-center rounded-pill mt-2 mx-auto draggable" draggable="true" data-display="inline">a</div>
+                <div class="tag border bg-primary text-white text-center rounded-pill mt-2 mx-auto draggable" draggable="true" data-display="block">h1</div>
+                <div class="tag border bg-primary text-white text-center rounded-pill mt-2 mx-auto draggable" draggable="true" data-display="block">p</div>
+                <div class="tag border bg-primary text-white text-center rounded-pill mt-2 mx-auto draggable" draggable="true" data-display="inline">strong</div>
+                <div class="tag border bg-primary text-white text-center rounded-pill mt-2 mx-auto draggable" draggable="true" data-display="block">ul</div>
+                <div class="tag border bg-primary text-white text-center rounded-pill mt-2 mx-auto draggable" draggable="true" data-display="block">li</div>
+                <div class="tag border bg-primary text-white text-center rounded-pill mt-2 mx-auto draggable" draggable="true" data-display="block">article</div>
+                <div class="tag border bg-primary text-white text-center rounded-pill mt-2 mx-auto draggable" draggable="true" data-display="block">header</div>
+                <div class="tag border bg-primary text-white text-center rounded-pill mt-2 mx-auto draggable" draggable="true" data-display="block">footer</div>
+                <div class="tag border bg-primary text-white text-center rounded-pill mt-2 mx-auto draggable" draggable="true" data-display="block">table</div>
+                <div class="tag border bg-primary text-white text-center rounded-pill mt-2 mx-auto draggable" draggable="true" data-display="block">form</div>
+                <div class="tag border bg-primary text-white text-center rounded-pill mt-2 mx-auto draggable" draggable="true" data-display="inline">input</div>
+                <div class="tag border bg-primary text-white text-center rounded-pill mt-2 mx-auto draggable" draggable="true" data-display="inline">img</div>
+                <div class="tag border bg-primary text-white text-center rounded-pill mt-2 mx-auto draggable" draggable="true" data-display="inline">button</div>
+            </div>
+            <div class="answers-container col-6">
+                <div class="answers dropzone border" data-answer="block">
+                    <h2 class="text-center">Comportement block</h2>
+                </div>
+                <div class="answers dropzone border" data-answer="inline">
+                    <h2 class="text-center">Comportement inline</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="btn btn-dark" id="result">Résultats</button>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
